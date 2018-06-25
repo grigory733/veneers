@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Default Page Title</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="http://fonts.ksn.pw/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<style>
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.TopHeader { 
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+background: #E8E8E9;
+height: 5200px;
+}
+form {
+font-size: 24px;
+margin: 160px 0;	
+}
+h1 {
+	/*font-family: Lato;*/
+	color: #fff;
+	font-size: 60px;
+/*	text-align: center;  */
+	margin: 44px 20px 12px 130px;
+}
+h2 {
+	/*font-family: Lato;*/
+	color: #FFFFFF;
+	font-size: 36px;
+	margin: 0 132px;
+}
+.about-teeth {
+	float: right;
+	margin: 0 132px 80px 5px;
+background: #0094ff;
+height: 260px;
+width: 600px;	
+}
+.about-teeth strong {
+color: #FFD800;	
+}
+p { 
+	font-size: 20px;
+	color: #fff;
+}
+h3 {
+	font-family: OpenSansBold;
+	color: #555;
+	font-size: 42px;
+	text-align: left;
+	margin: 12px 200px;
+}
+h5 {
+	/*font-family: Lato;*/
+	color: #FFD800;	
+	font-size: 20px;
+	margin: 0 132px;
+}
+.first {
+/*background: #1FA2E6;*/
+background-image: url(images/header_bg2.jpg);
+color: #bbf;
+height: 560px;
+width: 100%;	
+}
+.order1,.order2,.order3{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+background: #fff;	
+color: #bbf;
+height: 280px;
+width: 100%;	
+}
+.vindos {
+background: #0094ff;	
+color: #bbf;
+height: 435px;
+width: 100%;	
+}
+.vindos-header,.reviews-header {
+	background: #0094ff;
+    height: 80px;
+	width: 100%;	
+}
+#dream-video {
+	margin: 0 136px 20px;
+}
+.forget {
+	display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center; 
+background: #888;
+height: 340px;
+width: 100%;
+}
+.icon {
+	display: flex;
+flex-direction: column;
+	margin: 30px 40px;
+}
+.forget-header {
+	background: #888;
+	height: 80px;
+	width: 100%;
+}
+.forget-header h2, .why-header h2, .vindos-header h2, .doit-header h2, .certificates-header h2, .pickup-header h2 {
+margin-top: 20px;	
+text-align: center;	
+}
+.doit-header h2, .why-header h2, .pickup-header h2 {
+    color: #333;
+}
+.forget-header h2 {
+	color: #FFD800;
+}
+/*.problem {
+	display: flex;
+flex-direction: column;
+justify-content: space-between;
+}  */
+.why,.pickup {
+	display: flex;
+flex-direction: row;
+background: #FF9AAE;
+color: #bbf;
+height: 550px;
+width: 100%;	
+}
+.why-header, .pickup-header {
+background: #FF9AAE;
+	height: 80px;
+	width: 100%;
+}
+.why-picture {
+	height: 400px;
+    width: 50%;
+    margin-top: 28px;
+    margin-left: 90px;
+}
+.why-text {
+	background: #FF9AAE;
+	height: 400px;
+    width: 50%;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+.foryou {
+	display: flex; 
+flex-direction: row;
+justify-content: space-around;
+background: #888;	
+color: #bbf;
+height: 420px;
+width: 100%;
+}
+.foryou-picture {
+	flex-basis: 28%;
+height: 280px;
+width: 280px;
+margin: 30px 0;
+}
+.foryou-text {
+	flex-basis: 30%;
+	background: #888;
+height: 280px;
+width: 340px;
+margin: 30px 30px 30px 80px;
+}
+.foryou-text p {
+color: #ffd800;
+}
+.doit {
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	background: #FFFFFF;	
+height: 320px;
+width: 100%;
+}
+.doit-header {
+background: #FFFFFF;
+	height: 80px;
+	width: 100%;	
+}
+.reviews {
+	display: flex;
+flex-direction: row;
+    justify-content: center;	
+background: #0094ff;	
+height: 500px;
+width: 100%;
+padding: 0;	
+}
+.review {
+	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background: #ffffff;	
+color: #333;
+height: 340px;
+width: 400px;
+padding: 10px;
+margin: 20px 20px 0 10px;
+}
+.review-avatar {
+	background: #beceda;
+	height: 120px;
+width: 140px;
+margin: 10px;
+}
+.status {	
+	background: #fcc0da;
+	height: 120px;
+	font-size: 24px;
+	color: ff0077;
+width: 180px;
+margin: 10px;
+}
+.certificates {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; 
+background: #63C669;      /* Салатовый */
+height: 437px;
+width: 100%;	
+}
+.A4 {
+	background: #FFFFFF;
+height: 297px;
+width: 210px;
+margin: -30px 20px 20px 20px;		
+}
+.certificates-header {
+background: #63C669;
+	height: 80px;
+	width: 100%;	
+}
+.pickup {
+display: flex;
+flex-direction: row;
+justify-content: center;	
+}
+.pickup-map {
+height: 380px;
+width: 760px;
+margin: 20px;
+}
+.pickup-text {
+background: #FF9AAE;
+color: #333;
+font-size: 20px;
+height: 380px;
+width: 600px;
+margin: 60px 20px;
+}
+.smile {
+	float: left;
+	width: 595px;
+	height: 324px;
+    margin: 20px 0 20px 199px;
+}
+.last {
+background-image: url(images/bottom_bg.jpg);
+color: #bbf;
+height: 560px;
+width: 100%;
+}
+.last-header {
+	padding-top: 30px;
+	padding-left: 5px;
+}
+.last-header h2 {
+	font-size: 48px;
+}
+.gifka {
+	float: right;
+    width: 320px;
+	height: 180px;
+    margin-top: -360px;
+    margin-right: 129px;
+    padding: 10px;
+}
+.gifka-bottom {
+	float: right;
+    width: 320px;
+	height: 180px;
+    margin-top: -5px;
+    margin-right: 120px;*/
+    padding: 0;
+    z-index: 1;
+}
+.bullet {
+	margin-top: 40px;
+	
+}
+.footer {
+background: #888;	
+color: #333;
+text-align: center;
+margin: auto;
+height: 120px;
+width: 100%;
+}
+.holly, .perfect {
+	margin 0;
+	padding 0;
+}
+#forma1, #forma3 {
+display: flex;
+flex-direction: row;
+
+}
+#form-name, #form-telephon {
+	background: #fff;
+	color: white;
+	border: 1px solid #777; 
+	border-radius:7px;
+	padding: 10px 15px;
+	margin: 20px;
+    width: 320px;
+	height: 60px;	
+}
+.form-button {
+	background: #f55;
+	color: white;
+	border-radius:7px;
+	padding: 13px 5px;
+	margin: 20px;
+    width: 360px;
+	height: 60px;
+	font-size: 24px;
+	font-family: Arial;
+	text-align: center;
+	text-decoration: bold;
+}
+.ulmarker {
+	list-style-type: disc;
+	color: #333;
+	font-size: 20px;
+	  line-height: 190%;
+}
+
+
+@media only screen and (max-width : 768px) {
+	img {
+margin: 3px 0 3px 5px;
+}
+    h3 {
+margin: 10px 5px 0 0;
+}
+}
+@media only screen and (max-width : 600px) {
+	img {
+margin:auto;
+}
+h3  {
+visibility: hidden;
+}
+}
+
+</style>
+
+
+<div class="TopHeader">
+     <div class="first"> 
+       <h1>Perfect Smile Veneers в Кургане</h1>
+       <h2>Идеальная улыбка теперь доступна!</h2>
+       <h5><br><br><br>- Идеально ровные белые зубы<br><br></h5>
+       <h5>- Надежное крепление без обточки<br><br></h5>
+       <h5>- Подходит и мужчинам, и женщинам<br><br></h5>
+       <h5>- Не вредят эмали зубов и деснам<br><br></h5>
+       <h5>- Гипоаллергенные материалы</h5>
+            
+            <div class="gifka">
+                <img class="perfect"  src="images/perfect.gif" alt="Вставляем винир">
+            </div>
+           
+      </div>
+
+      <div class="order1"> 
+<form id="forma1">
+<input type="text" id="form-name" name="name" placeholder="Ваше имя" required="">
+<input type="text" id="form-telephon" name="phone" placeholder="Ваш телефон" required="">
+<div class="form-button"> ЗАКАЗАТЬ СО СКИДКОЙ </div>
+ </form>
+      </div>
+
+      <div class="vindos"> 
+      	<div class="vindos-header"><h2>Мечтаете об идеальной улыбке?</h2></div>
+          <div>
+            <iframe id="dream-video" width="30%" height="260" src="https://www.youtube.com/embed/hjurSw91jI0" frameborder="0" allowfullscreen>
+            </iframe>
+            <div class="about-teeth"> <p>Красивые зубы, ослепительная улыбка и безупречный внешний вид теперь доступны не только голливудским актерам. Альтернатива идеальной улыбки: виниры <strong>Perfect Smile veneers</strong>.
+            Темная эмаль, сколы и неровные зубы – проблема эстетическая. А позволить себе дорогостоящее лечение у стоматолога могут далеко не все. <br>Что же делать людям со скромным бюджетом? Ответ очевиден: накладные виниры, позволяющие замаскировать дефекты зубов за 2 минуты.</p> 
+            </div>
+          </div>
+      </div>
+      <!-- <div class="order2"> 
+       <h2>order2</h2>
+      </div>  -->
+      <div class="forget-header"><h2>Забудьте о проблемах с зубами</h2></div>
+      <div class="forget"> 
+       <div class="problem"><div class="icon"> <img  src="images/gray.png" alt=""></div></div>  
+       <div class="problem"><div class="icon"> <img  src="images/problem1.png" alt="Иконка 1"></div></div>
+       <div class="problem"><div class="icon"> <img  src="images/problem2.png" alt="Иконка 2"></div></div>
+       <div class="problem"><div class="icon"> <img  src="images/problem3.png" alt="Иконка 3"></div></div>
+       <div class="problem"><div class="icon"> <img  src="images/problem4.png" alt="Иконка 4"></div></div>
+       <div class="problem"><div class="icon"> <img  src="images/problem5.png" alt="Иконка 5"></div></div> 
+  <!--     <div class="problem"><div class="icon"> <img  src="images/problem3.png" alt="Иконка 6"></div></div>  -->
+      <div class="problem"><div class="icon"> <img  src="images/gray.png" alt=""></div></div>  
+
+      </div> 
+
+      <div class="why-header"><h2>Использовать Perfect Smile Veneers просто</h2></div>
+      <div class="why"> 
+       <div class="why-picture"><img  src="images/smiling-girl.png" alt="Улыбка девушки"></div>
+       <div class="why-text">
+       	<br><br>
+<ul class="ulmarker">
+<li>Тщательно почистите зубы</li>
+<li>Положите виниры на 1 минуту в горячую воду</li>
+<li>Плотно прижмите их к внешней стороне зубов для получения индивидуальной формы слепка</li>
+<li>Держите так 30 секунд</li>
+<li>Положите виниры в холодную воду для затвердевания</li>
+<li>Наденьте виниры</li>
+<li>Улыбайтесь как можно чаще, улыбка вам к лицу!</li>
+</ul>
+       </div>
+      </div>
+      <div class="forget-header"><h2>Созданы специально для вас</h2></div>
+      
+      <div class="foryou">
+      	<div class="foryou-text"><p>Хотите красивые зубы, но не можете себе позволить дорогостоящие стоматологические процедуры? Решение найдено - Perfect Smile Veneers!<br></p><p>Белоснежные идеально ровные зубы легко крепятся буквально за несколько секунд, и вы выглядите на все сто!</p></div>
+<div class="foryou-picture"><img  src="images/foryou1.png" alt="винир в коробке"></div>
+<div class="foryou-picture"><img  src="images/foryou2.png" alt="винир в руке"></div>
+<div class="foryou-picture"><img  src="images/foryou-girl.png" alt="девушка ставит винир"></div>
+
+      </div>
+      <div class="vindos-header"><h2>Отзывы наших покупателей</h2></div>
+      <div class="reviews">
+<div class="review">
+	<div class="review-avatar"><img  src="images/avatar.png" alt="аватарка покупателя"></div>
+	<div class="status">Фамилия Имя<br><strong>Город</strong></div>	
+	<div>Lorem ipsum dolor sit amet, exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor officia deserunt mollit anim id est laborum.ullamco laboris
+	nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur.</div>
+</div>
+<div class="review">
+	<div class="review-avatar"><img  src="images/avatar.png" alt="аватарка покупателя"></div>
+	<div class="status">Фамилия Имя<br><strong>Город</strong></div>	
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco  Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+<div class="review">
+	<div class="review-avatar"><img  src="images/avatar.png" alt="аватарка покупателя"></div>
+	<div class="status">Фамилия Имя<br><strong>Город</strong></div>	
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+       </div>
+      <div class="certificates-header"><h2>Сертификаты качества</h2></div> 
+      <div class="certificates">
+      	<div class="A4"></div><div class="A4"></div>
+      </div>
+
+      <div class="doit-header"><h2>Закажите прямо сейчас</h2></div>
+      <div class="doit">       
+        <div class="bullet"><img  src="images/blank.png" alt="Иконка 1"></div>
+        <div class="bullet"><img  src="images/buy1.png" alt="Иконка 3"></div>
+        <div class="bullet"><img  src="images/buy2.png" alt="Иконка 4"></div>
+        <div class="bullet"><img  src="images/buy3.png" alt="Иконка 5"></div>
+        <div class="bullet"><img  src="images/buy4.png" alt="Иконка 1"></div>
+        <div class="bullet"><img  src="images/blank.png" alt="Иконка 1"></div>      
+      </div>
+
+      <div class="pickup-header"><h2>Как забрать виниры в Кургане</h2></div>
+      <div class="pickup"> 	
+    	<div class="pickup-map"><img  src="images/map.png" alt="Карта, где забрать"></div>     
+    	<div class="pickup-text">Забрать товар самовывозом в Кургане вы можете с нашего склада по адресу: Криволапова 52 <br> <br>	Вы, также можете заказать курьерскую доставку. Стоимость по Кургану 200 рублей.<br> <br>
+    		Если у вас возникли вопросы, звоните прямо на склад: +79097228273 Светлана
+    	</div>     
+      </div>
+
+       <div class="last"> 
+      	<div class="last-header"><h2>Perfect Smile Veneers в Кургане</h2></div>
+    	<div class="gifka-bottom">
+                <img class="perfect"  src="images/perfect.gif" alt="Вставляем винир">
+            </div>        
+      </div>
+      <div class="order3"> 
+<form id="forma1">
+<input type="text" id="form-name" name="name" placeholder="Ваше имя" required="">
+<input type="text" id="form-telephon" name="phone" placeholder="Ваш телефон" required="">
+<div class="form-button"> ЗАКАЗАТЬ СО СКИДКОЙ </div>
+ </form>
+      </div>
+      <div class="footer">
+      <footer>
+    <div class="copyright"><br>ИП Кунгуров Г.И. ИНН 450804419588 Тел.+79512627621 <br> Выдача в Кургане ул.Криволапова 52 или курьерская доставка 200 рублей</div>
+    <a href="politika.html" target="_blank">Политика конфиденциальности</a></div>
+</footer> 
+      </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+</body>
+</html>
